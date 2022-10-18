@@ -127,7 +127,8 @@ class MariaDBToMongo:
 
     def get_rows_dict_list(self, table_name: str) -> ListDict:
         """
-        Get the table rows as a list of dictionaries
+        Get the table rows as a list of dictionaries.
+        Convert Decimal and Date values along the way.
 
         Parameters
         ----------
