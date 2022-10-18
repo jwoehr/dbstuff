@@ -220,7 +220,7 @@ if __name__ == "__main__":
     EXPLANATION = """
     mariadb_to_mongo.py Convert MySQL or MariaDB database table to MongoDB document collection.
     Exits 0 on success, 1 on argument error, 100 on runtime error.
-    Copyright 2020, 2022 Jack Woehr jwoehr@softwoehr.com PO Box 51, Golden, CO 80402-0051.
+    Copyright 2020, 2022 Jack Woehr jwoehr@softwoehr.com PO Box 82, Beulah, CO 81023-0082
     BSD-3 license -- See LICENSE which you should have received with this code.
     THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
     WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES.
