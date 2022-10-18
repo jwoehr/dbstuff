@@ -8,5 +8,5 @@ Well, "utilit**y**" at the moment. May post more.
   1. `pip install mariadb pymongo dnspython`
   1. `python mariadb_to_mongo.py -h` for help.
 
-  Jack Woehr
-  2022-10-18
+Jack Woehr
+2022-10-18
