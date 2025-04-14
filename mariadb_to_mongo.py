@@ -18,8 +18,6 @@ WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES.
 import argparse
 import decimal
 import datetime
-
-# import json
 import sys
 from typing import List
 import mariadb
@@ -157,7 +155,7 @@ class MariaDBToMongo:
                         value.year, value.month, value.day, 0, 0, 0, 0
                     )
                 elif isinstance(value, datetime.timedelta):
-                    value = datetime.datetime.utcnow()
+                    value = datetime.datetime.now(datetime.timezone.utc)
                 row_dict[col_name] = value
             rows_dict_list.append(row_dict)
         return rows_dict_list
