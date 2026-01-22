@@ -1,0 +1,4 @@
+dnspython==2.8.0
+mariadb==1.1.14
+packaging==26.0
+pymongo==4.16.0
